@@ -18,7 +18,7 @@ const eventSchema = new mongoose.Schema({
         trim: true
     },
     image: {
-        type: [String],
+        type: String,
         required: true
     },
     membersNumber:{
