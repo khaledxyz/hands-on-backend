@@ -16,7 +16,7 @@ module.exports.readEvents = async (req, res) => {
 // configure the storage for the uploaded images
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
-    cb(null, "upload/Events");
+    cb(null, "Upload/Events");
   },
   filename: function (req, file, cb) {
     cb(null, file.originalname);
